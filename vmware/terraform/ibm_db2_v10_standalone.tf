@@ -38,7 +38,7 @@ variable "ibm_pm_private_ssh_key" {
 }
 
 variable "allow_unverified_ssl" {
-  description = "Communication with vsphere server with self signed certificate"
+  description = "Communication with vSphere server with self signed certificate"
   default     = "true"
 }
 
